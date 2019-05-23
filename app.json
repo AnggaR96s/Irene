@@ -2,6 +2,6 @@
   "name": "Hanabi Bot",
   "description": "Group manging group",
   "repository": "https://github.com/darkthur/HanabiBot",
-  "logo": "https://node-js-sample.herokuapp.com/node.png",
+  "logo": "https://github.com/darkthur/HanabiBot/raw/master/HanabiBot.png",
   "keywords": ["python", "tgbot", "hanabi"]
 }
