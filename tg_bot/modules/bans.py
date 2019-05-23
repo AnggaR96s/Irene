@@ -16,8 +16,8 @@ from tg_bot.modules.log_channel import loggable
 from tg_bot.modules.helper_funcs.filters import CustomFilters
 
 RBAN_ERRORS = {
-    "User is an administrator of the chat",
-    "Chat not found",
+    "Hey! User is an administrator of the chat",
+    "Dafuq, Chat not found",
     "Not enough rights to restrict/unrestrict chat member",
     "User_not_participant",
     "Peer_id_invalid",
@@ -30,8 +30,8 @@ RBAN_ERRORS = {
 }
 
 RUNBAN_ERRORS = {
-    "User is an administrator of the chat",
-    "Chat not found",
+    "Hey! User is an administrator of the chat",
+    "Dafuq. Chat not found",
     "Not enough rights to restrict/unrestrict chat member",
     "User_not_participant",
     "Peer_id_invalid",
@@ -140,7 +140,7 @@ def temp_ban(bot: Bot, update: Update, args: List[str]) -> str:
         return ""
 
     if user_id == bot.id:
-        message.reply_text("You can't ban the ＴＨＯＮＫ！")
+        message.reply_text("You can't ban this guy!")
         return ""
 
     if not reason:
