@@ -19,9 +19,9 @@ from tg_bot.modules.helper_funcs.chat_status import is_user_admin
 from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
-Hi {}, my name is {}! I'm a group manager bot maintained by [this wonderful person](tg://user?id={}).
+Hi, my name is Hanabi! I'm a group manager bot maintained by [this wonderful person](t.me/rev31one).
 I'm built in python3, using the python-telegram-bot library, and am fully opensource - you can find what makes me tick \
-[here](github.com/skittles9823/SkittBot)! and the original source [here](github.com/PaulSonOfLars/tgbot)!
+[here](github.com/darkthur/HanabiBot)! and the original source [here](github.com/PaulSonOfLars/tgbot)!
 
 You can find the list of available commands with /help.
 
@@ -29,9 +29,9 @@ If you're enjoying using me, and/or would like to help me survive in the wild, h
 """
 
 HELP_STRINGS = """
-Hey there! My name is *{}*.
+Hey there! My name is *Hanabi!*.
 I'm a modular group management bot with a few fun extras! Have a look at the following for an idea of some of \
-the things I can help you with.
+the things I can help you with. BTW i am based on SkittBot xD.
 
 *Main* commands available:
  - /start: start the bot
@@ -46,10 +46,10 @@ the things I can help you with.
 And the following:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-DONATE_STRING = """Oh hoi, glad to hear you want to donate to [Skittles](tg://user?id=427673272). Every donation helps \
-All the donation money will go to hosting me, and keeping Skittles online \
-He doesnt have a job right now, so every little bit helps!
-[PayPal](paypal.me/Skittles2398).
+DONATE_STRING = """Oh hoi, glad to hear you want to donate to [My Creator](t.me/rev31one). Every donation helps \
+All the donation money will go to hosting me, and keeping me online \
+He is a student. So he have no much money to keep me hosted as he also need to complete his daily needs!
+[PayPal](paypal.me/ferraripie).
 
 If you wish to donate to [Paul](tg://user?id=254318997), the lovely person who made the original source for this bot you can either donate to his [PayPal](paypal.me/PaulSonOfLars), or [Monzo](monzo.me/paulnionvestergaardlarsen)."""
 
