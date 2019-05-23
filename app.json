@@ -1,0 +1,7 @@
+{
+  "name": "Hanabi Bot",
+  "description": "Group manging group",
+  "repository": "https://github.com/darkthur/HanabiBot",
+  "logo": "https://node-js-sample.herokuapp.com/node.png",
+  "keywords": ["python", "tgbot", "hanabi"]
+}
